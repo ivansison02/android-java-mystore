@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12151E</color>
+    <color name="colorPrimaryDark">#12151E</color>
+    <color name="colorAccent">#AD1313</color>
+    <color name="colorWhiteDark">#E0DADA</color>
+    <color name="colorTxtBlack">#1B1B1B</color>
+
+    <color name="colorNavActive">#666666</color>
+    <color name="colorNavInactive">@color/colorAccent</color>
+    <color name="colorCategoryInactive">#423F3F</color>
+    <color name="colorCategoryActive">#AD1313</color>
+    <color name="colorChecked">#AD1313</color>
+    <color name="colorUnchecked">#4F4E4E</color>
+    <color name="colorImageMask">#444040</color>
+    <color name="colorDivider">#C4C4C4</color>
+    <color name="colorItemQtyBg">#DBDBDB</color>
+    <color name="colorBorder">#D7D7D7</color>
+</resources>

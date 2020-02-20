@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyStore</string>
+
+    <string name="txt_login">Log In</string>
+    <string name="txt_create_account">Create new account</string>
+    <string name="txt_forgot_password">Forgot password?</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_cart">Cart</string>
+    <string name="txt_account">Account</string>
+    <string name="txt_more">More</string>
+    <string name="txt_email_address">Email Address</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_search_product">Search product</string>
+    <string name="title_home">Home</string>
+
+    <string name="txt_currency_php">₱</string>
+    <string name="txt_currency_php_w_val">₱%s</string>
+    <string name="txt_currency_php_sample1">₱10,000.00</string>
+    <string name="txt_currency_php_sample2">₱50.00</string>
+    <string name="txt_product_sample1">Acer Aspire XC-730 Intel J3355 CeleronAcer Aspire XC-730 Intel J3355 Celeron</string>
+    <string name="txt_sort_by">Sort By</string>
+    <string name="txt_price">Price</string>
+    <string name="txt_min">Min</string>
+    <string name="txt_max">Max</string>
+    <string name="txt_manufacturer">Manufacturer</string>
+
+    <string name="txt_check_out">Check Out</string>
+    <string name="txt_shipping_fee_w_colon">Shipping Fee:</string>
+    <string name="txt_total_w_colon">Total:</string>
+    <string name="txt_all_items">All Items</string>
+    <string name="txt_wishlist">Wishlist</string>
+    <string name="txt_scan">Scan</string>
+    <string name="txt_apply">Apply</string>
+    <string name="txt_with_ellipsis">%s...</string>
+    <string name="txt_rate_sample1">4.7</string>
+    <string name="txt_rate_max_sample1">/5</string>
+    <string name="txt_product_details">Product Details</string>
+    <string name="txt_bullet_description">\u2022 %s</string>
+    <string name="txt_reviews_w_colon">Reviews:</string>
+    <string name="txt_product_details_w_colon">Product Details:</string>
+
+</resources>

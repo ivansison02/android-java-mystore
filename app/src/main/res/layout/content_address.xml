@@ -4,12 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.activities.WishlistActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".views.activities.AddressActivity"
+    tools:showIn="@layout/activity_address">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rcy_wishlist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="@dimen/margin_normal"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

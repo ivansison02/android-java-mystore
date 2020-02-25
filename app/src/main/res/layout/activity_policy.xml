@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.activities.HomeActivity">
+    tools:context=".views.activities.PolicyActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout"
@@ -24,23 +24,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/title_home"
+                android:text="@string/title_policy"
                 android:textColor="@android:color/white"
                 style="@style/TextAppearance.AppCompat.Title"/>
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_home"/>
+    <include layout="@layout/content_policy"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/btm_nav_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="?android:attr/windowBackground"
-        app:menu="@menu/menu_home_user"
-        app:labelVisibilityMode="labeled"
-        app:itemIconTint="@drawable/btm_nav_bar_selector"
-        app:itemTextColor="@drawable/btm_nav_bar_selector"
-        app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

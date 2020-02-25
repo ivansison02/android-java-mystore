@@ -78,7 +78,6 @@
                android:id="@+id/rcy_product"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:layout_marginTop="@dimen/margin_normal"
                android:layout_marginStart="@dimen/margin_normal"
                android:layout_marginEnd="@dimen/margin_normal"
                tools:listitem="@layout/layout_product_item_grid"

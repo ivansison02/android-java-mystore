@@ -21,6 +21,7 @@ import com.ivan.sison.mystore.data.entities.ProductCategory;
 import com.ivan.sison.mystore.utils.DummyUtils;
 import com.ivan.sison.mystore.utils.ViewUtils;
 import com.ivan.sison.mystore.views.activities.CartActivity;
+import com.ivan.sison.mystore.views.activities.HomeActivity;
 import com.ivan.sison.mystore.views.activities.ProductDetailActivity;
 import com.ivan.sison.mystore.views.adapters.ProductCategoryAdapter;
 import com.ivan.sison.mystore.views.adapters.ProductListAdapter;
@@ -84,6 +85,14 @@ public class HomeUserFragment extends Fragment implements View.OnClickListener,
             default:
                 break;
         }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        ((HomeActivity) getActivity()).onAddScrollFlags();
+        ((HomeActivity) getActivity()).setActivityTitle(getString(R.string.title_home));
     }
 
     private void onChangeViewType() {

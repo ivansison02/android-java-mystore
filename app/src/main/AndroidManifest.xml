@@ -8,16 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".views.activities.ProductDetailActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".views.activities.AddressActivity"
+            android:label="@string/title_activity_address"></activity>
+        <activity android:name=".views.activities.AboutActivity" />
+        <activity android:name=".views.activities.ContactUsActivity" />
+        <activity android:name=".views.activities.PolicyActivity" />
+        <activity android:name=".views.activities.ReviewsActivity" />
+        <activity android:name=".views.activities.ProductDetailActivity" />
         <activity android:name=".views.activities.CartActivity" />
         <activity android:name=".views.activities.ScanActivity" />
         <activity android:name=".views.activities.WishlistActivity" />
         <activity android:name=".views.activities.LoginActivity" />
-        <activity
-            android:name=".views.activities.HomeActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".views.activities.HomeActivity" />
         <activity android:name=".views.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

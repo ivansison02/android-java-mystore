@@ -19,21 +19,6 @@ public class ProductDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_detail);
 
-        setupToolbar();
-    }
-
-    private void setupToolbar() {
-        View actionBar = getLayoutInflater().inflate(R.layout.layout_app_bar, null);
-        TextView txtTitle = (TextView) actionBar.findViewById(R.id.txt_title);
-        txtTitle.setText("Item");
-
-        ActionBar.LayoutParams params = new ActionBar.LayoutParams(
-                ActionBar.LayoutParams.WRAP_CONTENT,
-                ActionBar.LayoutParams.MATCH_PARENT,
-                Gravity.CENTER);
-
-
-        CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.col_toolbar);
 
     }
 }

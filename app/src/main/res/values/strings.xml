@@ -38,5 +38,45 @@
     <string name="txt_bullet_description">\u2022 %s</string>
     <string name="txt_reviews_w_colon">Reviews:</string>
     <string name="txt_product_details_w_colon">Product Details:</string>
+    <string name="txt_add_to_cart">Add to Cart</string>
+    <string name="txt_view_all">View All</string>
+    <string name="txt_policies">Policies</string>
+    <string name="txt_contact_us">Contact Us</string>
+    <string name="txt_about">About</string>
+    <string name="txt_policy_detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus arcu nec quam rutrum euismod.
+        Integer consequat, tortor non tristique semper, odio lorem tempor nulla, sed mollis turpis lorem vitae velit. Fusce turpis risus,
+        consectetur cursus dolor id, porta congue risus. Maecenas ut lectus erat. Pellentesque justo quam, tristique vitae augue eu,
+        venenatis pulvinar justo. Aenean commodo egestas tellus, in ornare elit vestibulum quis. Quisque ac porta diam. \n\nVivamus lacus eros,
+        vehicula ac purus quis, cursus consectetur nunc. Cras volutpat ullamcorper congue. Donec sit amet enim vitae libero cursus rhoncus sed vitae tellus.
+        Morbi sapien ex, volutpat posuere dignissim ac, commodo id arcu. Quisque semper consequat nibh sit amet placerat. Nullam finibus pretium mi, eget varius
+        lorem facilisis et. Cras tempor vestibulum risus, eget malesuada diam.  Curabitur sit amet tincidunt elit, et volutpat lectus. Pellentesque tortor lorem,
+        sagittis in augue ut, semper fermentum nisi. Ut eleifend neque eu nulla mollis, in luctus nunc venenatis. Vestibulum iaculis arcu nec neque placerat luctus.
+        Praesent pellentesque rhoncus auctor. Vivamus auctor dictum orci at porttitor. Morbi sagittis mi vitae ipsum rutrum luctus. Donec non neque nec lorem volutpat
+        tempus a sit amet nisi. Vestibulum vel hendrerit orci, id venenatis enim. Nulla porttitor quis sapien vitae scelerisque. Maecenas semper lacinia ex, quis
+        placerat libero. Cras finibus finibus metus, vel faucibus libero feugiat at. Donec maximus mattis nisl, scelerisque viverra ex cursus vitae.\n\n
+        Curabitur efficitur semper quam, vitae euismod orci viverra at. Cras vehicula non nibh in dignissim. Aenean mattis massa sed odio fringilla, sit amet
+        auctor sapien laoreet. Quisque congue enim ut lacinia malesuada. Nam id massa vitae nisl aliquet euismod eu at augue. Pellentesque convallis a lacus vel
+        efficitur. Donec enim metus, placerat eu libero tincidunt, sagittis auctor erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Maecenas eu lectus nibh. Integer posuere lacus ut odio suscipit porttitor. Pellentesque mauris risus, consectetur id pulvinar non, fermentum
+        et nunc. Duis sed est sapien. Etiam placerat iaculis felis, vitae molestie eros luctus quis. Nunc hendrerit malesuada arcu, sit amet laoreet sapien rutrum eu.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n  Morbi tempor, nibh non venenatis placerat, est orci dictum sapien, ac ultricies tellus massa eu
+        arcu. Nunc ac odio nec purus tempus pretium id eget lacus. Mauris egestas tortor sit amet nisi hendrerit sollicitudin. Aenean blandit lacinia risus, eu
+        tristique enim fermentum non. Phasellus sit amet augue gravida, auctor urna bibendum, sagittis arcu. Nulla pulvinar, diam vitae laoreet ultrices, enim risus
+        imperdiet sapien, sit amet mattis nibh sapien quis dolor. Cras ultricies sem id interdum luctus. Aenean eget nisi in lacus tempus consequat.
+        Nullam convallis diam ac augue euismod tincidunt. Phasellus non nunc feugiat, luctus nisi in, sagittis nunc. Sed dapibus neque et diam faucibus tristique.
+        Fusce id iaculis dolor. In hac habitasse platea dictumst. Proin eu nulla nunc. Praesent condimentum elit non orci vestibulum tempus. Nulla varius faucibus
+        urna, eget tincidunt eros. Sed sit amet posuere nunc, ut rutrum ligula. Integer porttitor neque vitae mi volutpat, eu consequat lacus facilisis. Fusce viverra
+        libero quis erat mollis placerat. Proin dapibus tincidunt porttitor. Vestibulum id nisl congue, molestie neque efficitur, auctor eros. Suspendisse pellentesque
+        lacus et metus fringilla sollicitudin. Duis tincidunt lectus et eros vulputate commodo. Ut ac magna sem. \n\n\n\n</string>
+    <string name="txt_send">Send</string>
+    <string name="txt_send_a_message">Send a message</string>
+    <string name="app_about">Welcome to my app!\n\nThis is to showcase my expertise in Android Development.</string>
+    <string name="title_more">More</string>
+    <string name="title_account">Account</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_policy">Policy</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <string name="title_contact_us">Contact Us</string>
+    <string name="title_about">About</string>
 
 </resources>

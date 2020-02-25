@@ -64,4 +64,55 @@
 
     <include layout="@layout/content_product_detail" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_cart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="@dimen/margin_normal"
+                android:background="@drawable/button_cart"/>
+
+            <Button
+                android:id="@+id/btn_buy"
+                android:layout_width="87dp"
+                android:layout_height="47dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="@dimen/margin_normal"
+                android:background="@drawable/field_accent_rad_small"
+                android:text="@string/txt_check_out"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="87dp"
+                android:layout_height="47dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_buy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="@dimen/margin_normal"
+                android:background="@drawable/field_white_rad_small"
+                android:text="@string/txt_add_to_cart"
+                android:textSize="12sp"
+                android:textColor="@color/colorAccent"
+                android:textAllCaps="false"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

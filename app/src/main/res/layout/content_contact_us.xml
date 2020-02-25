@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".views.activities.ContactUsActivity"
+    tools:showIn="@layout/activity_contact_us">
+
+    <EditText
+        android:id="@+id/fld_message"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:padding="@dimen/margin_normal"
+        android:background="@drawable/field_white_darker_rad_small"
+        android:hint="@string/txt_send_a_message"
+        android:gravity="top"
+        android:textColor="@color/colorTitle"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fld_message"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/field_accent"
+        android:text="@string/txt_send"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

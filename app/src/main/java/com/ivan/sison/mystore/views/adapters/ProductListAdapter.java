@@ -73,43 +73,6 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
                 mInterface.onSelectedProduct(product);
             }
         });
-
-        /*if (position == mCurrentIndex) {
-            int[][] states = new int[][] {
-                    new int[] { android.R.attr.state_enabled}, // enabled
-                    new int[] {-android.R.attr.state_enabled}, // disabled
-                    new int[] {-android.R.attr.state_checked}, // unchecked
-                    new int[] { android.R.attr.state_pressed}  // pressed
-            };
-
-            int[] colors = new int[] {
-                    mView.getResources().getColor(R.color.colorCategoryActive),
-                    mView.getResources().getColor(R.color.colorCategoryActive),
-                    mView.getResources().getColor(R.color.colorCategoryActive),
-                    mView.getResources().getColor(R.color.colorCategoryActive)
-            };
-
-            ColorStateList comboList = new ColorStateList(states, colors);
-            holder.mLayout.setBackgroundTintList(comboList);
-        }
-        else {
-            int[][] states = new int[][] {
-                    new int[] { android.R.attr.state_enabled}, // enabled
-                    new int[] {-android.R.attr.state_enabled}, // disabled
-                    new int[] {-android.R.attr.state_checked}, // unchecked
-                    new int[] { android.R.attr.state_pressed}  // pressed
-            };
-
-            int[] colors = new int[] {
-                    mView.getResources().getColor(R.color.colorCategoryInactive),
-                    mView.getResources().getColor(R.color.colorCategoryInactive),
-                    mView.getResources().getColor(R.color.colorCategoryInactive),
-                    mView.getResources().getColor(R.color.colorCategoryInactive)
-            };
-
-            ColorStateList comboList = new ColorStateList(states, colors);
-            holder.mLayout.setBackgroundTintList(comboList);
-        }*/
     }
 
     @Override
@@ -119,12 +82,6 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
 
     public int getViewType() {
         return mViewType;
-    }
-
-    public void onChangeViewType() {
-        if (mViewType == ViewUtils.TYPE_GRID) mViewType = ViewUtils.TYPE_LIST;
-        else mViewType = ViewUtils.TYPE_GRID;
-        notifyDataSetChanged();
     }
     // MARK: - View
     public class ViewHolder extends RecyclerView.ViewHolder {

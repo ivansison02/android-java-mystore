@@ -2,6 +2,7 @@ package com.ivan.sison.mystore.utils;
 
 import com.ivan.sison.mystore.data.entities.Product;
 import com.ivan.sison.mystore.data.entities.ProductCategory;
+import com.ivan.sison.mystore.data.entities.Supplier;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +25,21 @@ public class DummyUtils {
         return products;
     }
 
+    public static List<Product> getCartProducts() {
+        List<Product> products = new ArrayList<>();
+
+        products.add(new Product(0, "i7-9900H Intel", "KM", "18000"));
+        products.add(new Product(0, "Asus ROG B360-F Gaming Motherboard", "KM", "9900"));
+        products.add(new Product(0, "Asus ROG B360-F Gaming Motherboard", "KM", "9900"));
+        products.add(new Product(0, "Asus ROG B360-F Gaming Motherboard", "KM", "9900"));
+        products.add(new Product(0, "Asus ROG B360-F Gaming Motherboard", "KM", "9900"));
+        products.add(new Product(0, "Asus ROG B360-F Gaming Motherboard", "KM", "9900"));
+        products.add(new Product(0, "Asus ROG B360-F Gaming Motherboard", "KM", "9900"));
+        products.add(new Product(0, "Asus ROG B360-F Gaming Motherboard", "KM", "9900"));
+
+        return products;
+    }
+
     public static List<ProductCategory> getProductCategories() {
         List<ProductCategory> categories = new ArrayList<>();
 
@@ -31,6 +47,20 @@ public class DummyUtils {
         categories.add(new ProductCategory(0, "Peripherals", ""));
         categories.add(new ProductCategory(0, "Accessories", ""));
         categories.add(new ProductCategory(0, "Networking", ""));
+
+        return categories;
+    }
+
+    public static List<Supplier> getSuppliers() {
+        List<Supplier> categories = new ArrayList<>();
+
+        categories.add(new Supplier(0, "Acer", "", ""));
+        categories.add(new Supplier(0, "Asus", "", ""));
+        categories.add(new Supplier(0, "Lenovo", "", ""));
+        categories.add(new Supplier(0, "Logitech", "", ""));
+        categories.add(new Supplier(0, "Rakk", "", ""));
+        categories.add(new Supplier(0, "Steelseries", "", ""));
+        categories.add(new Supplier(0, "MSI", "", ""));
 
         return categories;
     }

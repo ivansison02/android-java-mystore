@@ -4,12 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.activities.WishlistActivity">
+    tools:context=".views.activities.ReviewsActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rcy_wishlist"
+    <LinearLayout
+        android:id="@+id/lyt_rate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/lyt_rate"
         android:layout_margin="@dimen/margin_normal"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

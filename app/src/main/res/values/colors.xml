@@ -16,4 +16,7 @@
     <color name="colorDivider">#C4C4C4</color>
     <color name="colorItemQtyBg">#DBDBDB</color>
     <color name="colorBorder">#D7D7D7</color>
+    <color name="colorCartBg">#C4C4C4</color>
+    <color name="colorTitle">#242121</color>
+    <color name="colorWhiteDarker">#D9D4D4</color>
 </resources>
